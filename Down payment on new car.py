@@ -7,4 +7,4 @@ if has_good_credit:
     down_payment = new_car_price * 0.1
 else:
     down_payment = new_car_price * 0.2
-print(f"The down payment on your new car is {down_payment}")
+print(f"The down payment on your new car is €{down_payment}")

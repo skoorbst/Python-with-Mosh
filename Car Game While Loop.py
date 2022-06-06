@@ -5,11 +5,11 @@ while True:
     if command == "start":
         if started:
             print("Car is already started")
-        else:
+        else: 
             started = True
             print("The car has started")
     elif command == "stop":
-        if not started:
+        if not started :
             print("Car is already stopped")
         else:
             started = False

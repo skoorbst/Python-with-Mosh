@@ -1,7 +1,14 @@
-import math
 
-math.
+secret_number = 9
+guess_count = 0
+guess_limit = 3
 
-x = 2.9
-print (round(x))
+while guess_count < guess_limit:
+    guess = int(input("Guess: "))
+    guess_count += 1
+    if guess == secret_number:
+        print("You win!")
+        break
+else:
+    print("You lose")
 

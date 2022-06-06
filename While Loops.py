@@ -1,5 +1,5 @@
 i = 1
-while i <= 5:
-    print(i)
+while i <= 10 :
+    print(' holy shit '* i)
     i = i + 1
-print("Okay, that's it. Stop! ")
+print("Time to launch missiles")

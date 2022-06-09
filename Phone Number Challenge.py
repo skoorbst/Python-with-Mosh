@@ -3,7 +3,8 @@ digits_mapping = {
     "1": "One",
     "2": "Two",
     "3": "Three",
-    "4": "Four"
+    "4": "Four",
+    "5": "Five",
 }
 output = ""
 for ch in phone:

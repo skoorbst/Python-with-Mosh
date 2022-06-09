@@ -1,9 +1,15 @@
-prices = [10982, 3978, 2]
-total = 0
+numbers = [20, 3, 276, 1990, 208, 6]
+max = 0
+for number in numbers:
+    if number > max:
+        max = number
+print(max)
 
+prices = [20, 3, 276, 1990, 208, 6]
+total = 0
 for price in prices:
     total += price
-print(f"Total = {total}")
+print(f"Price {total}")
 
 
 

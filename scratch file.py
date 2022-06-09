@@ -1,16 +1,14 @@
 
-secret_number = 9
-guess_count = 0
-guess_limit = 3
+is_hot = False
+is_cold = False
 
-while guess_count < guess_limit:
-    guess = int(input("Guess: "))
-    guess_count += 1
-    if guess == secret_number:
-        print("You win ")
-        break
+if is_hot:
+    print("It is hot. Drink water")
+elif is_cold:
+    print("It is cold. Wear a sweater")
 else:
-    print("You lose")
+    print("It's a nice day")
+print("Have a great day")
 
 
 

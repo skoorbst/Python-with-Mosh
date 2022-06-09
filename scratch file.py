@@ -1,14 +1,16 @@
 
-secret_number = 98
+secret_number = 9
 guess_count = 0
 guess_limit = 3
 
 while guess_count < guess_limit:
-    guess = int(input("What is your guess? "))
+    guess = int(input("Guess: "))
     guess_count += 1
     if guess == secret_number:
-        print("Wow. You got it. You win!")
+        print("You win ")
         break
 else:
-    print("Shit, sorry. You lose. You a loser")
+    print("You lose")
+
+
 

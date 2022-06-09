@@ -1,5 +1,5 @@
-numbers = [4, 2, 9, 100, 308]
-max = 0
+numbers = [9, 1, 8, 100]
+max = numbers[0]
 for number in numbers:
     if number > max:
         max = number

@@ -6,5 +6,5 @@ customer = {
     "is_verified": True
 }
 
-print(customer)
+print(customer.get("name"))
 

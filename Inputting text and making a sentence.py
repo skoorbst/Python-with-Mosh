@@ -1,0 +1,6 @@
+name = input("Hi, what is your name? ")
+print("Hi "+ name + ", welcome to Python. This shows that you have mastered inputs and writing out a sentence based on the inputs you've made.")
+age = input("How old are you? ")
+city = input("Cool. What city are you from? ")
+color = input(" Nice. What's your favorite color? ")
+print("Great, thanks "+ name + ". You are "+ age + " and you are from "+ city + " and your favorite color is "+ color +". Now I want to know --- why did you just give me all that information?")
